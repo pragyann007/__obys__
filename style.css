@@ -183,14 +183,26 @@ body{
 
 
 }
-.hero h2,h3{
+.hero h2{
     cursor: pointer;
-
+    border-bottom: 0.5vw solid white;
+    /* margin-right: 10px; */
+    /* transition: all ease 0.3s; */
     font-size: 7.2vw;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 7vw;
-
+   
+}
+.hero h3{
+    cursor: pointer;
+    margin-left: 12px;
+    /* margin-right: 10px; */
+    /* transition: all ease 0.3s; */
+    font-size: 7.2vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 7vw;
 
 }
 .hero h2:hover{
